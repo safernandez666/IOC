@@ -4,8 +4,8 @@ IoC's that are spoken in GitHub Twitter & Blog's.
 
 ## Menu
 
-<img src="/screenshots/menu.png" width="300" >
+<img align="center" src="/screenshots/menu.png" width="600" >
 
 ## List
 
-<img src="/screenshots/list.png" width="300" >
+<img align="center" src="/screenshots/list.png" width="600" >
