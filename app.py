@@ -3,6 +3,9 @@ import json
 import os
 from pprint import pprint 
 from datetime import datetime
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 dia = datetime.now()
 dia_hoy = dia.strftime("%Y/%m/%d")
