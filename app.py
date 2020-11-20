@@ -11,7 +11,7 @@ dia_hoy = dia.strftime("%Y/%m/%d")
 
 def scrape_iocdb_domains(choice=""):
     url = "https://labs.inquest.net/api/iocdb/list"
-    response = requests.request("GET", url)
+    response = requests.request("GET", url, verify=False)
     res = json.loads(response.text)
     results=[]
     dia = datetime.now()
