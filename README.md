@@ -9,6 +9,12 @@ _Clon the Proyect_
 ```
 https://github.com/safernandez666/IOC.git
 ```
+_Reqirements_
+
+```
+pip3 freeze > requirements.txt
+```
+
 _Run it_
 
 ```
